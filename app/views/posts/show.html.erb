@@ -1,0 +1,6 @@
+<h1>
+  <%=@post.title%> </h1>
+  <p><%=@post.content%>
+  </p>
+<p><%= link_to("powrot do postow", posts_path) %></p>
+<p> <%= link_to "usun", post_path(@post), method: :delete %> </p>
